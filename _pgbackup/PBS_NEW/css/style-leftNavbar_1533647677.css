@@ -180,7 +180,7 @@ ol {
 }
 
 .bg-info {
-    background-color: #00a8a8;
+    background-color: #5bc0de;
     border-color: #5bc0de;
 }
 
@@ -897,16 +897,16 @@ Buttons
 }
 
 .btn-outline-info {
-    border: 2px solid #00a8a8;
+    border: 2px solid #5bc0de;
     background-color: transparent;
-    color: #00a8a8;
+    color: #5bc0de;
 }
 
 .btn-outline-info:hover,
 .btn-outline-info:focus,
 .btn-outline-info:active {
     color: #fff;
-    border-color: #00a8a8;
+    border-color: #5bc0de;
     background-color: transparent;
 }
 
@@ -914,7 +914,7 @@ Buttons
 .btn-outline-info:focus:before,
 .btn-outline-info:active:before {
     width: 100%;
-    background-color: #00a8a8;
+    background-color: #5bc0de;
 }
 
 .btn-outline-success {
@@ -1701,9 +1701,18 @@ Pricing tables
 
 .pricing-features ul li {
     position: relative;
+    padding-left: 30px;
     margin-bottom: 10px;
     font-size: 1rem;
     text-transform: capitalize;
+}
+
+.pricing-features ul li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "FontAwesome";
+    content: "\f00c";
 }
 
 .pricing-features ul li:last-child {
